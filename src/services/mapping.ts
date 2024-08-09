@@ -1,6 +1,4 @@
-import { title } from "process";
 import { IComment, ICommentEntity, IProduct } from "../../types";
-import { describe } from "node:test";
 
 export const mapCommentEntity = ({
     comment_id, product_id, ...rest

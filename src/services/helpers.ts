@@ -1,5 +1,4 @@
-import { CommentCreatePayload, IComment, ICommentEntity, IProduct, IProductSearchFilter } from "../../types";
-import { mapCommentEntity } from "./mapping";
+import { CommentCreatePayload, IComment, IProductSearchFilter } from "../../types";
 import { v4 as uuidv4 } from 'uuid';
 
 type CommentValidator = (comment: CommentCreatePayload) => string | null;

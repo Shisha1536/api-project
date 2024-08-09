@@ -1,7 +1,7 @@
 import { Request, Response, Router  } from 'express';
 import { CommentCreatePayload, IComment, ICommentEntity } from "../../types";
 import { readFile, writeFile } from "fs/promises";
-import { checkCommentUniq, validateComment } from "../services/helpers";
+import { validateComment } from "../services/helpers";
 import { v4 as uuidv4 } from 'uuid';
 import { client } from "../../index";
 import { mapCommentEntity } from '../services/mapping';
